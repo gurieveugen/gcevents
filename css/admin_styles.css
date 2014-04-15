@@ -1,0 +1,75 @@
+#adminmenu #menu-posts-gcevent .wp-menu-image:before {
+	content: "\f073";  
+ 	font-family: 'FontAwesome' !important;
+ 	font-size: 18px !important;
+}
+
+#adminmenu #menu-posts-member .wp-menu-image:before {
+	content: "\f0c0";  
+ 	font-family: 'FontAwesome' !important;
+ 	font-size: 18px !important;
+}
+
+#adminmenu #menu-posts-multimedia .wp-menu-image:before {
+	content: "\f04b";  
+ 	font-family: 'FontAwesome' !important;
+ 	font-size: 18px !important;
+}
+
+#adminmenu #menu-posts-spectacle .wp-menu-image:before {
+	content: "\f129";  
+ 	font-family: 'FontAwesome' !important;
+ 	font-size: 18px !important;
+}
+
+#adminmenu #menu-posts-trip .wp-menu-image:before {
+	content: "\f072";  
+ 	font-family: 'FontAwesome' !important;
+ 	font-size: 18px !important;
+}
+
+.gctable{
+	width: 100%;
+	margin: 0 0 50px 0;
+}
+
+.gctable tbody tr th,
+.gctable tbody tr td{
+	text-align: left;
+}
+
+.gctable tbody tr td:first-child{
+	width: 40%;
+}
+
+.gctable select,
+.gctable input{
+	width: 50%;
+}
+
+fieldset.gccontrol_group legend{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+/*.form-table tbody tr td select,
+.form-table tbody tr td input{
+	width: 300px;
+}*/
+
+.gctable tbody tr td input[type=checkbox]{
+	width: auto;
+}
+
+.gctable tbody tr td input.date-input{
+	width: 165px;
+}
+
+.gctable tbody tr td select.time-input,
+.gctable tbody tr td input.time-input{
+	width: 45px;
+}
+
+.time{
+	display: inline;
+}
